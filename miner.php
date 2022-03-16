@@ -12,7 +12,7 @@ use RicardoFiorani\DuinoMiner\Miner\DucoS1Miner;
  */
 $poolIp = '51.15.127.80'; //https://raw.githubusercontent.com/revoxhere/duino-coin/gh-pages/serverip.txt
 $poolPort = 2811; //https://raw.githubusercontent.com/revoxhere/duino-coin/gh-pages/serverip.txt
-$username = 'Darknight91707;
+$username = 'Darknight91707';
 
 $configuration = new Configuration("$poolIp:$poolPort", $username);
 
