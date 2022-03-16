@@ -19,7 +19,7 @@ $configuration = new Configuration("$poolIp:$poolPort", $username);
 /**
  * Logging
  */
-$logger = new Logger('name');
+$logger = new Logger('hero');
 $logger->pushHandler(new StreamHandler('php://stdout'));
 $logger->alert('STARTING PHP MINER', ['user' => $configuration->getUsername()]);
 
